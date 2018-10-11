@@ -1,9 +1,0 @@
-# Makefile to build the sample student project 
-# With all the targets
-# By Jared Chudzinski
-
-CC=gcc
-CFLAGS=-I
-
-make: game.cc main.cc othello.cc
-	$(CC) -o make game.o main.o othello.o
