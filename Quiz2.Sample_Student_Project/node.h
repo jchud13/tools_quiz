@@ -1,3 +1,15 @@
+/** \file node.h
+ * Holds functions for the node class
+ * Builds a linked list that holds data and links
+ */
+
+    /*! 
+     *  \details   This class is used to hold a details for a single course
+     *  \author    John Dolan
+     */
+
+
+
 /*************************************************************************
       This file is borrowed heavily from Main/Savitch "Data Structures and
       Other Object Using C++," Chapter 5. It features a node class that 

@@ -1,3 +1,13 @@
+/** \file college.cc
+ * Holds functions for the college class
+ * Has the big three constructors and several other functions
+ */
+
+    /*! 
+     *  \details   This class is used to hold courses for a college student
+     *  \author    Matthew Aberegg
+     */
+
 //********************
 //Matthew Aberegg
 //Project 3
@@ -69,6 +79,10 @@ College& College::operator =(const College& other){
 	return * this;
 }
 
+/** Add course functions
+    @param course& c a course parameter
+    @return void return value
+*/
 void College::add(course& c){
 	node * previous;
 	node * cursor;
@@ -106,6 +120,11 @@ void College::add(course& c){
 		}
 	}
 }
+
+/** remove a course function
+    @param string coursename
+    @return void return value
+*/
 
 void College::remove(std::string coursename){
 	node * previous;	
@@ -145,6 +164,9 @@ void College::display(std::ostream& outs){
 }
 
 
+/** hours function
+    @return returns a double
+*/
 double College::hours(){
 	node * ptr;
 	ptr = head;

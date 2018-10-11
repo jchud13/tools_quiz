@@ -1,3 +1,15 @@
+/** \file course.h
+ * Holds functions for the course class
+ * Has input and output functions and implementations for course.h
+ */
+
+    /*! 
+     *  \details   This class is used to hold a details for a single course
+     *  \author    John Dolan
+     */
+
+
+
 /***********************************************************************8
 	This class stores the three essential features of a completed 
 	college course: the course number, the grade received, and the 

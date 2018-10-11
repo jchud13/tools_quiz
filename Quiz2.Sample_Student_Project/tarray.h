@@ -1,3 +1,15 @@
+/** \file tarray.h
+ * Holds functions for the tarray
+ * A generic array that can hold all types of data
+ */
+
+    /*! 
+     *  \details   Template class
+     *  \author    John Dolan
+     */
+
+
+
 /*********************************************************************
 	This is a class to introduce you to the syntax of working with 
 	template classes. Notice that the type being stored is completely

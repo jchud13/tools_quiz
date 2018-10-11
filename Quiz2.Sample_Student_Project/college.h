@@ -1,3 +1,14 @@
+/** \file college.h
+ * Holds functions for the college class
+ * Has the big three constructors and several other functions
+ */
+
+    /*! 
+     *  \details   This class is used to hold courses for a college student
+     *  \author    Matthew Aberegg
+     */
+
+
 //********************
 //Matthew Aberegg
 //Project 3

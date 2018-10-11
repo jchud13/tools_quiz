@@ -1,3 +1,14 @@
+/** \file course.cc
+ * Holds functions for the course class
+ * Has input and output functions and implementations for course.h
+ */
+
+    /*! 
+     *  \details   This class is used to hold a details for a single course
+     *  \author    Matthew Aberegg
+     */
+
+
 /***********************************************************************
 	The implementation file for course.h, which describes a college
 	course.

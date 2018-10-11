@@ -1,3 +1,14 @@
+/** \file collegemain.cc
+ * mainfile
+ * Builds a container that holds the list for college courses
+ */
+
+    /*! 
+     *  \details   This will run everything that you need
+     *  \author    John Dolan
+     */
+
+
 /******************************************************
 	This is the main for Project 3, which asks you to 
     build a container that holds a list of college courses.
